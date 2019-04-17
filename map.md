@@ -6,6 +6,8 @@ output:
 ---
 
 
+
+
 ```r
 options(stringsAsFactors = F)
 
@@ -59,7 +61,7 @@ shp_df %>%
     theme_void()
 ```
 
-![](map_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![](figs/mapsunnamed-chunk-6-1.png)<!-- -->
 #Town
 
 ```r
@@ -110,7 +112,7 @@ shp_df %>%
     theme_void()
 ```
 
-![](map_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](figs/mapsunnamed-chunk-11-1.png)<!-- -->
 
 
 #Village
@@ -198,5 +200,5 @@ shp_df %>%
   geom_text(data=text_df, aes(x = long_c, y = lat_c, label = id), color = "black", size = 2.5)
 ```
 
-![](map_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](figs/mapsunnamed-chunk-16-1.png)<!-- -->
 
