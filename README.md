@@ -1,2 +1,2 @@
 # Maps
-See outcome.md for outcome
+See outcome.md for outcomes
