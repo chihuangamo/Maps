@@ -2,6 +2,7 @@ Map
 ================
 
 -   [County](#county)
+-   [Town](#town)
 -   [Village](#village)
 
 ``` r
@@ -54,7 +55,10 @@ shp_df %>%
     theme_void()
 ```
 
-![](figs/mapsunnamed-chunk-6-1.png) \#Town
+![](figs/mapsunnamed-chunk-6-1.png)
+
+Town
+====
 
 ``` r
 shp <- readOGR('town/TOWN_MOI_1071226.shp', encoding = 'utf-8', stringsAsFactors = F)
